@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>mr_floorautomationapp_975dd</Name>
+  <AppVersion>2026-05-29T18:38:56Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.26052.14.0</CreatedByClientVersion>
+  <MinClientVersion>3.26052.14.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1919","primaryDeviceHeight":"860","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.26052.14","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","m365CopilotSettingValue":"0","sienaVersion":"20260529T183856Z-3.26052.14.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>FloorAutomationApp</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"1e726072-c03e-4626-9e09-f635ff5abde6":{"id":"/providers/microsoft.powerapps/apis/shared_sql","xrmConnectionReferenceLogicalName":"mr_sharedsql_cd0980c45f","displayName":"SQL Server","executionRestrictions":{"version":2,"modifiedOn":"2026-05-29 18:38:51","appVer":"3.26052.14","apiId":"/providers/microsoft.powerapps/apis/shared_sql","apiVer":2,"policy":"{\"tabularActions\":{\"[dbo].[machines]\":[\"get\"],\"[dbo].[mastercards]\":[\"get\"]},\"serviceActions\":[]}"},"iconUri":"https://static.powerapps.com/resource/ppcr/releases/v1.0.1812/1.0.1812.4743/sql/icon.png","dataSources":["Machines","Mastercards","Reproducibility_Logs"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"gatewayObjectIdHint":"af07ac4a-3d43-407c-850a-1c647d9c6822","isOnPremiseConnection":true,"sharedConnectionId":"53303860-2cb7-417c-8ee8-77ca2d5abee2","bypassConsent":false,"dataSets":{"RVENGINE%5cSQLEXPRESS,ShopFloorDB":{"dataSources":{"Machines":{"tableName":"[dbo].[Machines]"},"Mastercards":{"tableName":"[dbo].[Mastercards]"},"Reproducibility_Logs":{"tableName":"[dbo].[Reproducibility_Logs]"}}}},"apiTier":"Premium","actions":["providers/PowerPlatform.Governance/Operations/Read"],"endpoints":["RVENGINE\\SQLEXPRESS,ShopFloorDB"],"authenticationType":"windowsAuthentication"}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"mr_sharedsql_cd0980c45f","componenttype":10049,"componenttypeplatformname":"ConnectionReference"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/mr_floorautomationapp_975dd_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/mr_floorautomationapp_975dd_DocumentUri.msapp</DocumentUri>
+  <AdditionalUris>
+    <AdditionalUri>/CanvasApps/mr_floorautomationapp_975dd_AdditionalUris0_identity.json</AdditionalUri>
+  </AdditionalUris>
+</CanvasApp>
